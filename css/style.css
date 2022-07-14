@@ -78,7 +78,8 @@ p a:hover {
 	margin: 0 auto;
 	padding: 44px 0 50px;
 	text-align: center;
-	width: 960px;
+	width: 100%;
+	
 }
 
 #header a.logo {
@@ -86,6 +87,7 @@ p a:hover {
 	margin: 0 auto;
 	padding: 0;
 	width: 300px;
+	margin-top: 100px;
 
 }
 
@@ -101,6 +103,11 @@ p a:hover {
 #header ul {
 	margin: 0;
 	padding: 56px 0 0;
+	position:fixed ;
+	top: 0%;
+	z-index: 1;
+	background-color: var(--light-color);
+	width: 100%;
 }
 
 #header ul li {
@@ -453,19 +460,22 @@ p a:hover {
 
 #presents img{
 	
-		height: 100px; 	
-		margin-bottom: 30px;  
+		height: 100px; 
+		margin-bottom: 50px;
 
 }
+
 
 #title{
 	text-align: center;
 	font-weight: 300;
+	color: var(--dark-color);
 }
 #game{
 	text-align: center;
 	margin-top: -30px;
 	text-decoration: underline;
+	color: var(--dark-color);
 	
 
 }
